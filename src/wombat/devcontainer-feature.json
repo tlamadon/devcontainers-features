@@ -1,0 +1,19 @@
+{
+    "name": "Wombat",
+    "id": "wombat",
+    "version": "1.0.1",
+    "description": "Automatic site generator",
+    "options": {
+        "configfile": {
+            "type": "string",
+            "enum": [
+                "site.yml"
+            ],
+            "default": "site.yml",
+            "description": "Sepcifcy path to config file."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
